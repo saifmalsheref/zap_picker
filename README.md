@@ -6,6 +6,7 @@ The `zap_picker` package is a versatile Flutter package designed to simplify med
 
 1. [pickMedia](#pickmedia)
    1. [Overview](#overview)
+   1. [Adding Permissions](#adding-permissions)
    2. [Properties](#properties)
    3. [Example](#example)
 
@@ -21,6 +22,18 @@ The `zap_picker` package is a versatile Flutter package designed to simplify med
 ### Overview
 
 The `pickMedia` function allows you to seamlessly pick images or videos based on your application's requirements. It utilizes the `MethodChannel` to communicate with the native platform, ensuring a smooth media picking experience. The function returns the file path of the picked media.
+
+
+### Adding Permissions
+
+To ensure proper functionality of the `zap_picker` package on Android, it is essential to include the necessary permissions for reading and writing external storage in your `AndroidManifest.xml` file.
+Add the following lines within the `<manifest>` element of your `AndroidManifest.xml` file:
+
+```xml
+<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+```
+
 
 ### Properties
 

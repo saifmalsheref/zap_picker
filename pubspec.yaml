@@ -1,8 +1,8 @@
 name: zap_picker
 description: powerful package for pick media and files from gallery or file manager
-version: 0.0.1+test
-homepage:
-repository:
+version: 0.0.1
+homepage: https://github.com/saifmalsheref/zap_picker
+repository: https://github.com/saifmalsheref/zap_picker
 
 
 environment:
