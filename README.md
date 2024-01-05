@@ -5,14 +5,14 @@ The `zap_picker` package is a versatile Flutter package designed to simplify med
 ## Table of Contents
 
 1. [pickMedia](#pickmedia)
-    [Overview](#overview)
-    [Properties](#properties)
-    [Example](#example)
+   1. [Overview](#overview)
+   2. [Properties](#properties)
+   3. [Example](#example)
 
 2. [pickFile](#pickfile)
-    [Overview](#overview-1)
-    [Properties](#properties-1)
-    [Example](#example-1)
+   1. [Overview](#overview-1)
+   2. [Properties](#properties-1)
+   3. [Example](#example-1)
 
 ---
 
